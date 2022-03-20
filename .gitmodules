@@ -1,0 +1,7 @@
+[submodule "components/esp32_composite_video_lib"]
+	path = components/esp32_composite_video_lib
+	url = https://github.com/aquaticus/esp32_composite_video_lib.git
+	branch = main
+[submodule "components/lvgl"]
+	path = components/lvgl
+	url = https://github.com/lvgl/lvgl.git
