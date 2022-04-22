@@ -341,6 +341,9 @@ void app_main(void)
 	ESP_LOGI(TAG, "Interrupt timing stats enabled");
 #endif
 
+    video_test_ntsc(VIDEO_TEST_CHECKERS);
+    return;
+
 #if CONFIG_VIDEO_ENABLE_LVGL_SUPPORT
     run_demo_slides();
     // run_demo_single_slide(NTSC_320x200);
