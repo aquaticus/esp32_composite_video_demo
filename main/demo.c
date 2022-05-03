@@ -328,8 +328,8 @@ void app_main(void)
 {
 	ESP_ERROR_CHECK(uart_set_baudrate(UART_NUM_0, CONFIG_ESPTOOLPY_MONITOR_BAUD));
 
-	esp_log_level_set("*", ESP_LOG_INFO);
-	// esp_log_level_set("*", ESP_LOG_DEBUG);
+//	esp_log_level_set("*", ESP_LOG_INFO);
+	 esp_log_level_set("*", ESP_LOG_DEBUG);
 
 	ESP_LOGI(TAG, "Application start...");
 	ESP_LOGD(TAG, "DEBUG Output enabled");
